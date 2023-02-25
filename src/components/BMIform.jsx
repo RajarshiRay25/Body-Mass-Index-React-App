@@ -39,7 +39,6 @@ export default function BMIform() {
                 <figcaption className="figure-caption"><h6>Determine Your Weight Category</h6></figcaption>
                 <img src={BMI} className="figure-img img-fluid rounded" alt="..." />
             </figure>
-            {/* <img src={BMI} class="img-fluid" alt="..."></img> */}
         </div>
     )
 }
