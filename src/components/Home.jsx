@@ -18,6 +18,9 @@ export default function Home() {
                     <Link to="/nutcal">
                         <button className="btn btn-success rounded my-0.5 mx-2">Get Your Nutrient Count</button>
                     </Link>
+                    <Link to="/exercise">
+                        <button className="btn btn-warning rounded my-0.5">Exercise Platform</button>
+                    </Link>
                 </div>
             </div>
         </div>

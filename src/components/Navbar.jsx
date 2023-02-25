@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavStyle from '../css/NavbarStyle.css'
+import '../css/NavbarStyle.css'
 export default function Navbar() {
     return (
         <div>
@@ -14,16 +14,19 @@ export default function Navbar() {
                         <Link className="navbar-brand col-lg-3 me-0" to="/">Fitness Monitoring Application</Link>
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link active px-3" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/bmi">BMI Calculator</Link>
+                                <Link className="nav-link active px-3" to="/bmi">BMI Calculator</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/nutcal">Nutrients Calculator</Link>
+                                <Link className="nav-link active px-3" to="/nutcal">Nutrients Calculator</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/exercise">Exercise Platform</Link>
+                                <Link className="nav-link active px-3" to="/exercise">Exercise Platform</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active px-3" to="/about">About Us</Link>
                             </li>
                         </ul>
                     </div>
