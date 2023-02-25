@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import BMI from "../assets/BMIIMG.png"
 export default function BMIform() {
     const [weight, setWeight] = useState('');
     const [height, setHeight] = useState('');
@@ -31,9 +32,14 @@ export default function BMIform() {
                     <input type="number" id="height" className='form-control' name="height" value={height} onChange={(e) => setHeight(e.target.value)} />
                     <label htmlFor="floatingInput">Height (m)</label>
                 </div>
-                <button  className="btn btn-primary my-4" type="submit">Get Your BMI</button>
+                <button className="btn btn-primary my-4" type="submit">Get Your BMI</button>
             </form>
             {result && <h5>Your BMI is: {result}</h5>}
+            <figure class="figure">
+                <figcaption class="figure-caption"><h6>Determine Your Weight Category</h6></figcaption>
+                <img src={BMI} class="figure-img img-fluid rounded" alt="..." />
+            </figure>
+            {/* <img src={BMI} class="img-fluid" alt="..."></img> */}
         </div>
     )
 }
