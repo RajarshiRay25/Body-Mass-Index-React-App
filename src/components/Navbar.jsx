@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import NavStyle from '../css/NavbarStyle.css'
 export default function Navbar() {
     return (
         <div>
@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <Link className="nav-link active" to="/nutcal">Nutrients Calculator</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/exercise">Exercise</Link>
+                                <Link className="nav-link active" to="/exercise">Exercise Platform</Link>
                             </li>
                         </ul>
                     </div>
