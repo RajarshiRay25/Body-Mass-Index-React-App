@@ -17,7 +17,7 @@ export default function BMIform() {
 
         fetch(`https://body-mass-index-bmi-calculator.p.rapidapi.com/metric?weight=${weight}&height=${height}`, options)
             .then(response => response.json())
-            .then(response => setResult(response.bmi))
+            .then(response => setResult(response.bmi.toFixed(2)))
             .catch(err => console.error(err));
     }
     return (
@@ -35,9 +35,9 @@ export default function BMIform() {
                 <button className="btn btn-primary my-4" type="submit">Get Your BMI</button>
             </form>
             {result && <h5>Your BMI is: {result}</h5>}
-            <figure class="figure">
-                <figcaption class="figure-caption"><h6>Determine Your Weight Category</h6></figcaption>
-                <img src={BMI} class="figure-img img-fluid rounded" alt="..." />
+            <figure className="figure">
+                <figcaption className="figure-caption"><h6>Determine Your Weight Category</h6></figcaption>
+                <img src={BMI} className="figure-img img-fluid rounded" alt="..." />
             </figure>
             {/* <img src={BMI} class="img-fluid" alt="..."></img> */}
         </div>
