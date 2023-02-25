@@ -5,4 +5,4 @@
 
 ## Proposed Solution - Our innovative online platform aims to provide a one-stop solution for all your health and wellness needs. By leveraging the power of technology and data, we empower users to take control of their health by providing easy-to-use tools and resources to track their progress and achieve their fitness goals. Our app is designed to be accessible to everyone, from fitness enthusiasts to those just starting their wellness journey. With our comprehensive approach to health tracking, users can achieve long-term success and lead a happier, healthier life.
 
-## Hosted : 
+## Hosted : https://fitness-monitoring.netlify.app/
