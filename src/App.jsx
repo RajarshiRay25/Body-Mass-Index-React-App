@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import BMIform from './components/BMIform'
+import Nutrientsform from './components/Nutrientsform'
 import { Routes, Route } from "react-router-dom";
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/bmi" element={<BMIform />}></Route>
+        <Route path="/nutcal" element={<Nutrientsform/>}></Route>
       </Routes>
     </div>
   )

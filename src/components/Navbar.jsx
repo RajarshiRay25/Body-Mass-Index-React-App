@@ -19,6 +19,9 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/bmi">BMI Calculator</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/nutcal">Nutrients Calculator</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
