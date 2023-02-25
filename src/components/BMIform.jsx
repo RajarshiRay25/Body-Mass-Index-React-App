@@ -34,9 +34,9 @@ export default function BMIform() {
                 </div>
                 <button className="btn btn-primary my-4" type="submit">Get Your BMI</button>
             </form>
-            {result && <h5>Your BMI is: {result}</h5>}
+            {result && <h5>Your BMI is: {result} kg/m2</h5>}
             <figure className="figure">
-                <figcaption className="figure-caption"><h6>Determine Your Weight Category</h6></figcaption>
+                <figcaption className="figure-caption"><h4>Determine Your Weight Category</h4></figcaption>
                 <img src={BMI} className="figure-img img-fluid rounded" alt="..." />
             </figure>
         </div>

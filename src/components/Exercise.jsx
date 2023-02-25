@@ -43,7 +43,7 @@ function Exercise() {
                     value={searchTerm}
                     onChange={handleChange}
                 />
-                <label htmlFor="floatingInput">Enter Exercise Name</label>
+                <label htmlFor="floatingInput">Enter Muscle Group Name</label>
             </div>
                 <button className="btn btn-primary my-3" type='submit'>Search Exercises</button>
             </form>
