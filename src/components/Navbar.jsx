@@ -22,6 +22,9 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/nutcal">Nutrients Calculator</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/exercise">Exercise</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
