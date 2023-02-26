@@ -10,7 +10,8 @@
 ## Technologies and Dependancies used
 #### 1. ReactJs
 #### 2. Bootstrap
-#### 3. BMI API - https://rapidapi.com/principalapis/api/body-mass-index-bmi-calculator #### 4. Nutrition API - https://api-ninjas.com/api/nutrition
+#### 3. BMI API - https://rapidapi.com/principalapis/api/body-mass-index-bmi-calculator
+#### 4. Nutrition API - https://api-ninjas.com/api/nutrition
 #### 5. Exercise API - https://api-ninjas.com/api/exercises
 
 
