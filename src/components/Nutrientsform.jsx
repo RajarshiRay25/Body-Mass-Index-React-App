@@ -48,7 +48,7 @@ function Nutrientsform() {
         <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark my-4" type="submit">Get Nutrient Values</button>
       </form>
       {results.length > 0 && (
-        <table className="table">
+        <table className="table table-bordered">
           <thead>
             <tr>
               <th>Name</th>
