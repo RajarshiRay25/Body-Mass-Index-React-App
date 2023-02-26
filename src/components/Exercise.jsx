@@ -45,7 +45,7 @@ function Exercise() {
                 />
                 <label htmlFor="floatingInput">Enter Muscle Group Name</label>
             </div>
-                <button className="btn btn-primary my-3" type='submit'>Search Exercises</button>
+                <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark my-3" type='submit'>Search Exercises</button>
             </form>
             {results.length > 0 &&(<h3>Detailed Information Regarding Your Excercises</h3>)}
             {results.length > 0 && (

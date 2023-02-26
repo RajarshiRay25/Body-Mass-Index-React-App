@@ -1,0 +1,4 @@
+.img1 a img:hover{
+    box-shadow: 0px 0px 10px rgb(9, 7, 5);
+    border-radius: 50%;
+}

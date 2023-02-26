@@ -32,7 +32,7 @@ export default function BMIform() {
                     <input type="number" id="height" className='form-control' name="height" value={height} onChange={(e) => setHeight(e.target.value)} />
                     <label htmlFor="floatingInput">Height (m)</label>
                 </div>
-                <button className="btn btn-primary my-4" type="submit">Get Your BMI</button>
+                <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark my-4" type="submit">Get Your BMI</button>
             </form>
             {result && <h5>Your BMI is: {result} kg/m2</h5>}
             <figure className="figure">

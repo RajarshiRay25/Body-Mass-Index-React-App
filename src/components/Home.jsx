@@ -13,13 +13,13 @@ export default function Home() {
                         Moreover we also have an Exercise Platform, where we provide you with personalized and effective exercise plans to help you achieve your fitness goals. Our platform allows you to easily search for exercises by muscle group, equipment, difficulty level, and more. Our website provides you with the best exercises for each muscle group, ensuring that you get the most out of your workout. Whether you are a beginner or an experienced fitness enthusiast, our platform has something for everyone. So, what are you waiting for? Let's get started on your fitness journey today!
                     </p>
                     <Link to="/bmi">
-                        <button className="btn btn-primary rounded my-0.5">Get Your BMI Count</button>
+                        <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark rounded my-2 my-sm-0 mx-2">Get Your BMI Count</button>
                     </Link>
                     <Link to="/nutcal">
-                        <button className="btn btn-success rounded my-0.5 mx-2">Get Your Nutrient Count</button>
+                        <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark rounded my-2 my-sm-0 mx-2">Get Your Nutrient Count</button>
                     </Link>
                     <Link to="/exercise">
-                        <button className="btn btn-warning rounded my-0.5">Exercise Platform</button>
+                        <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark rounded my-2 my-sm-0 mx-2">Exercise Platform</button>
                     </Link>
                 </div>
             </div>
