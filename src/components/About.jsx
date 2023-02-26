@@ -27,7 +27,7 @@ export default function About() {
                     </span>
                 </div>
                 <div className="col-md-5 order-md-1">
-                    <img src={mypic} alt="Description of your image" className="bd-placeholder-img bd-placeholder-img-md featurette-image img-fluid mx-auto" width="400" height="400" style={{ border: "2px solid", borderRadius: "50%" }} />
+                    <img src={mypic} alt="Description of your image" className="bd-placeholder-img bd-placeholder-img-md featurette-image img-fluid mx-auto" width="400" height="400" style={{ border: "2px solid", borderRadius: "50%", boxShadow: '2px 5px 5px rgba(0, 0, 0, 0.8)' }} />
                 </div>
             </div>
         </div>
