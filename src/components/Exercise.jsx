@@ -47,7 +47,7 @@ function Exercise() {
             </div>
                 <button style={{boxShadow: '0 5px 5px rgba(0, 0, 0, 0.3)'}} className="btn btn-dark my-3" type='submit'>Search Exercises</button>
             </form>
-            {results.length > 0 &&(<h3>Detailed Information Regarding Your Excercises</h3>)}
+            {results.length > 0 &&(<h3>Detailed Information Regarding Your Exercises</h3>)}
             {results.length > 0 && (
                 <table className='my-2 table table-bordered'>
                     <thead>
